@@ -23,7 +23,7 @@
 				<div class="col-md-4">
 					<div class="card">
 						<!-- <img class="card-img-top" alt="Bootstrap Thumbnail First" src="https://www.layoutit.com/img/people-q-c-600-200-1.jpg"> -->
-						<div class="card-block">
+						<div class="card-block" style="border: groove;">
 							<h5 class="card-title text-center text-primary">
 								<!-- Card title -->
 							</h5>
@@ -46,20 +46,25 @@
 			<div class="page-header">
 			</div>
 			
-			<button type="button" class="btn btn-md btn-block active btn-outline-primary">
+			<button type="button" onclick="takeshot()" class="btn btn-md btn-block active btn-outline-primary">
 				Compartilhar
 			</button>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12" style="text-align: center;">
+		<p class="col-md-12" style="text-align: center;">
 			 Colégio Técnico de Bom Jesus
-		</div>
+		</p>
 	</div>
+
+	<div id="output"></div>
+
 </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+	<script src=
+	"https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js">
+	  </script>
   </body>
 </html>
