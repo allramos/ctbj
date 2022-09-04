@@ -8,10 +8,10 @@
     <title>CTBJ ::: Frase do dia</title>
 
     <meta name="description" content="">
-    <meta name="author" content="LayoutIt!">
+    <meta name="author" content="Allan Jheyson">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
   </head>
   <body>
@@ -37,34 +37,42 @@
 								</footer>
 								<script src="js/scripts.js"></script>
 							</blockquote> 
-						</div>
-					</div>
-				</div>
-				
+							<div id="ctbj">Colégio Técnico de Bom Jesus</div>
+						</div>						
+					</div>					
+				</div>				
 			</div>
 			
 			<div class="page-header">
 			</div>
-			
-			<button type="button" onclick="takeshot()" class="btn btn-md btn-block active btn-outline-primary">
-				Compartilhar
-			</button>
+			<br>
+			<!-- <button type="button" onclick="takeshot()" class="btn btn-md btn-block active btn-outline-primary">
+				Tirar print
+			</button> -->
 		</div>
 	</div>
 	<div class="row">
-		<p class="col-md-12" style="text-align: center;">
+		<!-- <p class="col-md-12" style="text-align: center; color: gray;">
 			 Colégio Técnico de Bom Jesus
-		</p>
+		</p> -->
+		
 	</div>
 
 	<div id="output"></div>
+	
+	
 
 </div>
 
+	<footer id="rodape">
+		<button type="button" id="botao" onclick="takeshot()" class="btn btn-md btn-block active btn-outline-primary">
+			Tirar print
+		</button>
+	</footer>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src=
-	"https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js">
-	  </script>
+	<script src="js/html2canvas.min.js"></script>
+	
   </body>
 </html>
